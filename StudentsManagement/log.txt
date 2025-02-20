@@ -1,0 +1,8 @@
+[1401/08/12 22:48:37] : --- bot created ---
+[1401/08/12 22:48:37] : --- bot starts polling ---
+[1401/08/12 22:48:39] : 121561111 => data:back_to_main
+[1401/08/12 22:48:41] : 121561111 => data:see_course/11
+[1401/08/12 22:57:30] : handel_error:
+urllib3 HTTPError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[1401/08/12 22:58:39] : handel_error:
+urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5595352211:AAESfGZLpQWxvZPOoCUAV9HYEytDKcfrJ4Y/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000020B12836EC0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
